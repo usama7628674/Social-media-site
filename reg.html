@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+    <link rel="stylesheet" href="reg.css">
+</head>
+<body>
+    <section>
+        <div class="container">
+            <div class="contop">
+                <div class="sign">
+                    <fieldset>
+                        <legend>
+                            <h1>Register</h1>
+                            It's fast and easy
+                        </legend> 
+                        <hr>
+                    <form>
+                      <input type="text" placeholder="Your name" id="name" required>
+                      <input type="text" placeholder="Your surname" id="surname" required> <br> <br>
+                      <input type="email" type="number" placeholder="Mobile number or email" id="email" required> <br> <br>
+                      <input type="password" placeholder=" New Password" id="password" required> <br> <br>
+                      <label for="date">Date of birth</label> <br> 
+                      <input type="date" id="date" required class="date"> <br> <br>
+                      <label for="gender" class="gender">Gender</label> <br> <br>
+                       <label for="male" class="male">
+                        Male <input type="radio" id="male" name="unic" value="male" required>
+                       </label>
+                       <label for="woman" class="woman">
+                        Woman <input type="radio" id="woman" name="unic" value="woman" required>
+                       </label>
+                       <label for="special" class="special">
+                        Special <input type="radio" id="special" name="unic" value="special" required>
+                       </label> <br> <br> 
+                       <div class="sub">
+                        <button type="submit">Register</button>
+                      </div>
+                    </form>
+                </fieldset>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
